@@ -26,5 +26,6 @@
     "nodemon": "^1.18.3",
     "prettier": "^3.1.1"
   },
+  "repository": "https://github.com/tquann286/nhaccuatui-be.git",
   "license": "ISC"
 }
