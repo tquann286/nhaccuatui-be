@@ -1,5 +1,5 @@
-### Sub-service for [NhacCuaTui Clone](https://github.com/tquann286/nhaccuatui-clone)
+## Sub-service for [NhacCuaTui Clone](https://github.com/tquann286/nhaccuatui-clone)
 
-- Because developer from nhaccuatui have blocked request not from referer https://beta.nhaccuatui.com/
-- And we can not change this from the client (FE) ([Detail](https://stackoverflow.com/questions/33143776/ajax-request-refused-to-set-unsafe-header))
-- So I have created this backend service to change referer from server request 
+Due to restrictions imposed by nhaccuatui developers, requests are blocked unless they come from the referer https://beta.nhaccuatui.com/. Unfortunately, we cannot alter this on the client side (frontend) due to technical limitations ([Details](https://stackoverflow.com/questions/33143776/ajax-request-refused-to-set-unsafe-header)). 
+
+To overcome this issue, I've developed a backend service that modifies the referer from server requests.
